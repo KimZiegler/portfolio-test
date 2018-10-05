@@ -5,10 +5,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
 	font-family: 'Roboto', sans-serif;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 	
 }
+
+#page2 {
+	height: 850px;
+	background: #F9F6F6;
+}
+#page3 {
+	width: 800px;
+	margin-left: 20%;
+	margin-right: 60%;
+	text-align: center;
+	height: 500px;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
 .bg-img {
   /* bg-img */
   background-image:url(../images/portfolio-2.png);
@@ -22,13 +38,6 @@ body {
 
   /* position-navbar */
   position: relative;
-}
-#page2 {
-	height: 850px;
-	background: #F9F6F6;
-}
-#page3 {
-	height: 1000px;
 }
 
 .container {
@@ -65,6 +74,8 @@ body {
 * {
 	box-sizing: border-box
 }
+
+/* overskrift to page2*/
 .overskrift {
 	margin-top: 90px;
 	width: 100%;
@@ -72,11 +83,6 @@ body {
 	border-color: black;
 	height: 120px;
 	text-align: center;
-}
-h1 {
-	font-size: 40px;
-	text-align: center;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
 
 
@@ -122,13 +128,7 @@ h1 {
   opacity: 1;
 }
 
-#page3 {
-	width: 800px;
-	margin-left: 20%;
-	margin-right: 60%;
-	text-align: center;
-	height: 500px;
-}	
+/* gallery */
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -143,11 +143,14 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+	
 }
-
+/* gallery text */
 div.desc {
     padding: 15px;
     text-align: center;
+	
+/* footer */
 }
 .footer-distributed{
 	background-color: #292c2f;
